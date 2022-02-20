@@ -43,7 +43,7 @@ ost = ur.Audio(sound_file_name='misc/ost.mp3', autoplay=True, auto_destroy=False
 
 sun = ur.Entity(model='sphere', scale=(5,5,5), texture='misc/2k_sun')
 earth = ur.Entity(model='sphere', scale=(2,2,2), texture='misc/8k_earth')
-moon = ur.Entity(model='sphere', scale=(0.1,0.1,0.1), texture='misc/2k_moon', parent=earth)
+moon = ur.Entity(model='sphere', scale=(0.1,0.1,0.1), texture='misc/2k_moon')
 
 sun.position = ur.Vec3(0, 0, 0)
 earth.position = ur.Vec3(10,0,10)
